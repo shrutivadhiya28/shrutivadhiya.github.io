@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <!-- Instant redirect when no proper index.html exists -->
+  <meta http-equiv="refresh" content="0; url=/index.html.">
+  <link rel="canonical" href="/index.html.">
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;padding:40px}
+  </style>
+</head>
+<body>
+  <h1>Redirecting…</h1>
+  <p>If you are not redirected automatically, <a href="/index.html.">click here</a>.</p>
+  <script>
+    // JS fallback
+    window.location.replace("/index.html.");
+  </script>
+</body>
+</html>
