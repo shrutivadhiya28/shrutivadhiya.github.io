@@ -4,17 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Shruti Vadhiya — Marketing & SEM</title>
+  <meta name="description" content="Marketing & SEM Coordinator in Toronto. Google Ads, SEO, and email campaigns for e-commerce brands." />
   <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;line-height:1.6;background:#fafafa;color:#222}
-    header{padding:48px 20px;text-align:center;background:white;box-shadow:0 1px 8px rgba(0,0,0,.06)}
-    h1{margin:0;font-size:32px}
-    .tag{color:#666}
+    :root{--card:#fff;--bg:#fafafa;--text:#222;--muted:#666;--shadow:0 1px 8px rgba(0,0,0,.06);--radius:14px}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;line-height:1.6;background:var(--bg);color:var(--text)}
+    header{padding:48px 20px;text-align:center;background:#fff;box-shadow:var(--shadow);position:sticky;top:0}
+    h1{margin:0;font-size:36px}
+    .tag{color:var(--muted)}
+    .btn{display:inline-block;margin:10px 8px;padding:10px 14px;border:1px solid var(--text);border-radius:10px;text-decoration:none;color:var(--text)}
     main{max-width:900px;margin:32px auto;padding:0 20px}
-    section{background:white;border-radius:14px;padding:24px;margin:16px 0;box-shadow:0 1px 8px rgba(0,0,0,.06)}
-    h2{margin-top:0}
+    section{background:var(--card);border-radius:var(--radius);padding:24px;margin:16px 0;box-shadow:var(--shadow)}
+    h2{margin:0 0 10px}
     .grid{display:grid;gap:16px}
     @media(min-width:800px){.grid{grid-template-columns:repeat(3,1fr)}}
-    a.button{display:inline-block;margin-top:12px;padding:10px 14px;border:1px solid #222;border-radius:10px;text-decoration:none;color:#222}
     footer{text-align:center;color:#777;padding:24px}
   </style>
 </head>
@@ -22,39 +25,44 @@
   <header>
     <h1>Shruti Vadhiya</h1>
     <div class="tag">Marketing & SEM Coordinator · Toronto</div>
-    <a class="button" href="mailto:youremail@example.com">Contact Me</a>
-    <a class="button" href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-    <a class="button" href="resume.pdf" target="_blank">Download Resume</a>
+    <a class="btn" href="mailto:youremail@example.com">Contact</a>
+    <a class="btn" href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <a class="btn" href="resume.pdf" target="_blank">Download Resume</a>
   </header>
 
   <main>
     <section>
       <h2>About</h2>
-      <p>I plan and optimize Google Ads (Search, Shopping, Performance Max), write SEO content, and run email campaigns. I enjoy turning data into simple, profitable actions.</p>
+      <p>I plan and optimize Google Ads (Search, Shopping, Performance Max), write SEO content, and run email campaigns for e-commerce brands. I like turning data into simple, profitable actions and presenting clear insights to teams.</p>
     </section>
 
     <section>
       <h2>Projects</h2>
       <div class="grid">
         <div>
-          <h3>Google Ads — PMax</h3>
-          <p>Launched PMax for an e-commerce brand; combined feed + custom segments; improved ROAS with audience signals.</p>
+          <h3>Google Ads — Performance Max</h3>
+          <p>Launched PMax for best-sellers at KoreanShop.ca. Used audience signals + feed clean-up; drove $1.8k+ in 24 hours from launch.</p>
         </div>
         <div>
-          <h3>SEO Blog — K-Beauty</h3>
-          <p>Comparison post with structured table & schema; targeted keywords and internal links to product pages.</p>
+          <h3>SEO Blog — K-Beauty Comparison</h3>
+          <p>“Dr. Althea 345 vs 147” post with a structured table and internal links. Targeted keywords to lift organic product traffic.</p>
         </div>
         <div>
-          <h3>Email — Mailchimp</h3>
-          <p>Promo + follow-up sequence; A/B subject tests; improved CTR and revenue contribution.</p>
+          <h3>Email — Promo + Follow-up</h3>
+          <p>Mailchimp campaign with A/B subject tests. Reached 7.2% CTR and improved repeat purchases week-over-week.</p>
         </div>
       </div>
-      <a class="button" href="#" target="_blank">See more case studies</a>
+      <a class="btn" href="projects.html">See more case studies</a>
     </section>
 
     <section>
       <h2>Skills</h2>
-      <p>Google Ads · Microsoft Ads · SA360 · GA · Excel · Copywriting · WooCommerce · Meta Ads</p>
+      <p>Google Ads · Microsoft Ads · SA360 · Google Analytics · Excel & PPT · Copywriting · WooCommerce · Meta Ads</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a> · LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
     </section>
   </main>
 
